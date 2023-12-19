@@ -1,16 +1,3 @@
----
-title: "Technical Guideline Series"
-output:
-  pdf_document:
-    toc: yes
-  html_document:
-    toc: yes
-    fig_width: 7
-    fig_height: 6
-    fig_caption: true
-    toc_float: yes
----
-
 # The IPBES Ontology
 
 **Prepared by Maral Dadvar and Aidin Niamir**
