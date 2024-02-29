@@ -1,17 +1,3 @@
----
-title: "Technical Guideline Series"
-output:
-  pdf_document:
-    toc: yes
-  html_document:
-    toc: yes
-    toc_float: yes
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 # The IPBES Ontology
 
 **Prepared by Maral Dadvar and Aidin Niamir** 
