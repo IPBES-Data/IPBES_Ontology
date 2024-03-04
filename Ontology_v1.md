@@ -200,7 +200,7 @@ The classes and properties used in IPBES ontology are created on the fly based o
 | *ipbes:Chapter* | Link to the class Chapter in which the person has a role |
 | *ipbes:Report* | Link to the class Report |
 | *skos:prefLabel* | The label that is preferred to be used for a chapter, sub-chapter, report or person |
-| *ipbes:orcID* | ORCID identifier of the person |
+| *owl:sameAs* | Link to other resources such as the zotero repository of the reference |
 | *ipbes:country* | Country of residence of the person |
 | *ipbes:ca* | Contributing authors in the stated chapter and report |
 | *ipbes:cl* | Coordinating lead authors in the stated chapter and report |
