@@ -1,17 +1,3 @@
----
-title: "Technical Guideline Series"
-output:
-  pdf_document:
-    toc: yes
-  html_document:
-    toc: yes
-    toc_float: yes
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 # The IPBES Ontology
 
 **Prepared by Maral Dadvar and Aidin Niamir** 
@@ -22,8 +8,8 @@ knitr::opts_chunk$set(echo = TRUE)
 *For any inquires please contact
 [tsu.data\@ipbes.net](mailto:tsu.data@ipbes.net)*
 
-Version: 1.0 
-Last Updated: February 27h, 2024
+Version: 02 
+Last Updated: March 5th, 2024
 
 DOI: [10.5281/zenodo.10404413](https://zenodo.org/doi/10.5281/zenodo.10404413) 
 
@@ -112,7 +98,7 @@ The classes and properties used in IPBES ontology are created on the fly based o
 
 |Properties|    |
 | --- | --- |
-| *ipbes:BackgroundMessage* | Link to the class BackgroundMessage which the key message has referred to  | 
+| *ipbes:BackgroundMessage* | Link to the class BackgroundMessage which the key message has been referred to  | 
 | *ipbes:identifier* | The identifier of the chapter or sub-chapter or key message in the report  |
 | *ipbes:Report* | Link to the class Report of the key message |
 | *skos:prefLabel* | The label that is preferred to be used for a chapter, sub-chapter, report or person |
@@ -200,7 +186,7 @@ The classes and properties used in IPBES ontology are created on the fly based o
 | *ipbes:Chapter* | Link to the class Chapter in which the person has a role |
 | *ipbes:Report* | Link to the class Report |
 | *skos:prefLabel* | The label that is preferred to be used for a chapter, sub-chapter, report or person |
-| *owl:sameAs* | Link to other resources such as the zotero repository of the reference |
+| *owl:sameAs* | Link to other resources about the person, such as ORCID |
 | *ipbes:country* | Country of residence of the person |
 | *ipbes:ca* | Contributing authors in the stated chapter and report |
 | *ipbes:cl* | Coordinating lead authors in the stated chapter and report |
