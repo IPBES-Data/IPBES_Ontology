@@ -25,7 +25,8 @@ Distributed under the CC-BY-4.0 License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Aidin Niamir - aidin.niamir@senckenberg.de
+IPBES Data and Knowledge Unit 
+Dr Aidin Niamir - aidin.niamir@senckenberg.de
 
 Project Link: [https://github.com/ipbesdata/IPBES_Ontology](https://github.com/ipbesdata/IPBES_Ontology)
 
