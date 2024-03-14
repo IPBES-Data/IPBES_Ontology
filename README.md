@@ -2,7 +2,7 @@
 <a name="readme-top"></a>
 
 <!-- ABOUT THE PROJECT -->
-## IPBES Ontology
+## IPBES Ontology for assessment reports
 
 The Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) is the intergovernmental body that assesses the state of biodiversity and the ecosystem services it provides to society, in response to requests from decision-makers. To this end, it produces regular regional, national, and global assessment reports in collaboration with many experts, scientists and politicians from a wide range of expertise, nationalities, and backgrounds. 
 To our knowledge, there is no existing ontology for the representation of intergovernmental reports and the broad topics and information that they cover. To this end, we have created the IPBES ontology as the stepping stone for representing these types of data as Linked Open Data and making them accessible for further exploration.
