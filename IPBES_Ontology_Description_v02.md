@@ -1,12 +1,12 @@
 # The IPBES Ontology
 
-**Prepared by Maral Dadvar and Aidin Niamir** 
+**Prepared by Maral Dadvar, and Aidin Niamir** 
   
-**Contributors: Dave Thau, Benedict Omare and Renske Gudde** 
+**Contributors: Dave Thau, Benedict Omare, and Renske Gudde** 
 
 
 *For any inquires please contact
-[tsu.data\@ipbes.net](mailto:tsu.data@ipbes.net)*
+[aidin.niamir@senckenberg.de](mailto:aidin.niamir@senceknberg.de)*
 
 Version: 02 
 Last Updated: March 5th, 2024
@@ -25,7 +25,8 @@ The ontology developed for representing intergovernmental reports and the broad 
 5. References
 
 ## 1. Introduction
-The Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) is the intergovernmental body which assesses the state of biodiversity and of the ecosystem services it provides to society, in response to requests from decision makers. To this end, it produces regular regional, national and global assessment reports in collaborations with many experts, scientists and politicians from a wide range of expertise, nationalities and backgrounds. To our knowledge, there is no existing ontology for representation of intergovernmental reports and the broad topics and information that they cover. To this end, we have created the IPBES ontology as the stepping stone for representing these types of data as LOD and make them accessible for further exploration.
+
+The Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) is an intergovernmental organisation that assesses both the status of biodiversity and the ecosystem services it provides to society at the request of decision-makers. To this end, IPBES works with a wide range of experts, scientists and policy-makers from different backgrounds and nationalities to produce regular regional, national and global assessment reports. Currently, there is no established ontology to represent intergovernmental reports and the wide range of topics and information they contain. In response, we have developed the IPBES ontology as a basic framework for representing such data as Linked Open Data (LOD) and facilitating their accessibility for further study and analysis.
 
 ## 2. Namespace Declarations
 This is the list of the namesspaces used in this ontology.
