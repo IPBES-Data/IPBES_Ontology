@@ -23,7 +23,7 @@ Distributed under the CC-BY-4.0 License. See `LICENSE` for more information.
 
 IPBES Data and Knowledge Unit (Dr Aidin Niamir - aidin.niamir@senckenberg.de)
 
-Project Link: [https://github.com/ipbesdata/IPBES_Ontology](https://github.com/ipbesdata/IPBES_Ontology)
+IPBES Ontology: [https://ipbes-data.github.io/IPBES_Ontology/IPBES_Ontology_Description_v02.html](https://ipbes-data.github.io/IPBES_Ontology/IPBES_Ontology_Description_v02.html)
 
 IPBES Ontology on the ICT Portal: [https://ict.ipbes.net/ipbes-ict-guide/introduction/ipbes-ontology](https://ict.ipbes.net/ipbes-ict-guide/introduction/ipbes-ontology)
 
