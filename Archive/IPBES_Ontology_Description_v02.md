@@ -9,7 +9,7 @@
 [tsu.data\@ipbes.net](mailto:tsu.data@ipbes.net)*
 
 Version: 02 
-Last Updated: April 12th, 2024
+Last Updated: March 5th, 2024
 
 DOI: [10.5281/zenodo.10404413](https://zenodo.org/doi/10.5281/zenodo.10404413) 
 

@@ -3,11 +3,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## IPBES Ontology for assessment reports
-
-The Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) is the intergovernmental body that assesses the state of biodiversity and the ecosystem services it provides to society, in response to requests from decision-makers. To this end, it produces regular regional, national, and global assessment reports in collaboration with many experts, scientists and politicians from a wide range of expertise, nationalities, and backgrounds. 
-To our knowledge, there is no existing ontology for the representation of intergovernmental reports and the broad topics and information that they cover. To this end, we have created the IPBES ontology as the stepping stone for representing these types of data as Linked Open Data and making them accessible for further exploration.
-
-The development of this ontology is still in progress. At the moment the datasets are available in TTL format by request. In the near future, a SPARQL endpoint will be also available to further facilitate the exploration of the datasets. 
+The Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) is an intergovernmental organisation that assesses both the status of biodiversity and the ecosystem services it provides to society at the request of decision-makers. To this end, IPBES works with a wide range of experts, scientists and policy-makers from different backgrounds and nationalities to produce regular regional, national and global assessment reports. Currently, there is no established ontology to represent intergovernmental reports and the wide range of topics and information they contain. In response, we have developed the IPBES ontology as a basic framework for representing such data as Linked Open Data (LOD) and facilitating their accessibility for further study and analysis.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -36,7 +32,7 @@ Distributed under the CC-BY-4.0 License. See `LICENSE` for more information.
 
 IPBES Data and Knowledge Unit (Dr Aidin Niamir - aidin.niamir@senckenberg.de)
 
-Project Link: [https://github.com/ipbesdata/IPBES_Ontology](https://github.com/ipbesdata/IPBES_Ontology)
+IPBES Ontology: [https://ipbes-data.github.io/IPBES_Ontology/IPBES_Ontology_Description_v02.html](https://ipbes-data.github.io/IPBES_Ontology/IPBES_Ontology_Description_v02.html)
 
 IPBES Ontology on the ICT Portal: [https://ict.ipbes.net/ipbes-ict-guide/introduction/ipbes-ontology](https://ict.ipbes.net/ipbes-ict-guide/introduction/ipbes-ontology)
 
