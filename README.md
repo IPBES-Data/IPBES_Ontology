@@ -13,6 +13,15 @@ The development of this ontology is still in progress. At the moment the dataset
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+<!-- VERSIONS -->
+## Version History
+03
+- The Classes KeyMessage and BackgroundMessage now have a new attribute: Illustration
+
+02
+- Initial public release
+
+
 <!-- LICENSE -->
 ## License
 
