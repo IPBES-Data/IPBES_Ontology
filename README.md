@@ -15,7 +15,11 @@ The Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Serv
 - The Classes KeyMessage and BackgroundMessage now have a new attribute: Illustration
 
 02
-- Initial public release
+- The attribute sameAs in Class Person was updated to contain other resources about the person, such as ORCID
+- The Class KeyMessage has now the attribute BackgroundMessage instead of attribute SubChapter
+
+01
+- Initial release
 
 
 <!-- LICENSE -->
