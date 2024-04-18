@@ -9,7 +9,7 @@
 [tsu.data\@ipbes.net](mailto:tsu.data@ipbes.net)*
 
 Version: 03 
-Last Updated: April 15th, 2024
+Last Updated: April 18th, 2024
 
 DOI: [10.5281/zenodo.10404413](https://zenodo.org/doi/10.5281/zenodo.10404413) 
 
@@ -64,7 +64,7 @@ The classes and properties used in IPBES ontology are created on the fly based o
 #### <a id="Chapter"></a>Chapter
 | Class |   |
 | --- | --- |
-| *ipbes.Chapter* | <http://ontology.ipbes.net/data/ch/> |
+| *ipbes.Chapter* | <http://ontology.ipbes.net/ch/> |
 
 |Properties|    |
 | --- | --- |
