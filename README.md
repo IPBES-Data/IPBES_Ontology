@@ -25,19 +25,23 @@ The Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Serv
 <!-- LICENSE -->
 ## License
 
-Distributed under the CC-BY-4.0 License. See `LICENSE` for more information.
+Distributed under the CC-BY-4.0 License. See [LICENSE](https://github.com/IPBES-Data/IPBES_Ontology/blob/main/LICENSE) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+<!-- External links -->
+## External links
 
-<!-- CONTACT -->
+IPBES Ontology: [https://ipbes-data.github.io/IPBES_Ontology/IPBES_Ontology_Description_v03.html](https://ipbes-data.github.io/IPBES_Ontology/IPBES_Ontology_Description_v03.html)
+
+IPBES Ontology on the ICT Portal: [https://ict.ipbes.net/ipbes-ict-guide/linked-open-data/ipbes-ontology](https://ict.ipbes.net/ipbes-ict-guide/linked-open-data/ipbes-ontology)
+
+
+<!-- Contact -->
 ## Contact
 
-IPBES Data and Knowledge Unit (Dr Aidin Niamir - aidin.niamir@senckenberg.de)
+For any questions and enquiries, please contact the IPBES Data and Knowledge Unit <aidin.niamir@senckenberg.de>
 
-IPBES Ontology: [https://ipbes-data.github.io/IPBES_Ontology/IPBES_Ontology_Description_v02.html](https://ipbes-data.github.io/IPBES_Ontology/IPBES_Ontology_Description_v02.html)
-
-IPBES Ontology on the ICT Portal: [https://ict.ipbes.net/ipbes-ict-guide/introduction/ipbes-ontology](https://ict.ipbes.net/ipbes-ict-guide/introduction/ipbes-ontology)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
