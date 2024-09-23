@@ -197,6 +197,19 @@ The classes and properties used in IPBES ontology are created on the fly based o
 | *ipbes:la* | Lead authors in the stated chapter and report |
 | *ipbes:re* | Review editors in the stated chapter and report |
 
+#### <a id="Reference"></a>KnowledgeGap
+
+| Class |   |
+| --- | --- |
+| *ipbes.KnowledgeGap* | <http://ontology.ipbes.net/report/kg/> |
+
+|Properties|    |
+| --- | --- |
+| *ipbes:Report* | Link to the class Report |
+| *ipbes:SubChapter* | Link to the class SubChapter in which the reference has been used |
+| *ipbes:hasDescription* | The text that further describes each knowlege gap that is related to the subchapters mentioned in the text | 
+| *ipbes:identifier* | The identifier of the sub-chapter or illustration mentioned in description |
+
 
 ## 5. References
 https://www.w3.org/2009/08/skos-reference/skos.html
