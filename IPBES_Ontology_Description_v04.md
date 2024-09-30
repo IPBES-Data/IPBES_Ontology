@@ -8,8 +8,8 @@
 *For any inquires please contact
 [tsu.data\@ipbes.net](mailto:tsu.data@ipbes.net)*
 
-Version: 03 
-Last Updated: April 18th, 2024
+Version: 04 
+Last Updated: September 23rd, 2024
 
 DOI: [10.5281/zenodo.10404413](https://zenodo.org/doi/10.5281/zenodo.10404413) 
 
@@ -43,9 +43,9 @@ The classes and properties used in IPBES ontology are created on the fly based o
 
 ## 4. Classes and Attributes
 
-| Classes |   |   |   |   |   |   |   |   |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Report](#Report) | [Chapter](#Chapter) | [SubChapter](#Subchapter) | [KeyMessage](#KeyMessage) | [BackgroundMessage](#BackgroundMessage) | [SubMessage](#SubMessage) | [Illustration](#Illustration) | [Reference](#Reference) | [Person](#Person) |
+| Classes |   |   |   |   |   |   |   |   |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Report](#Report) | [Chapter](#Chapter) | [SubChapter](#Subchapter) | [KeyMessage](#KeyMessage) | [BackgroundMessage](#BackgroundMessage) | [SubMessage](#SubMessage) | [Illustration](#Illustration) | [Reference](#Reference) | [KnowledgeGap](#KnowledgeGap) | [Person](#Person) |
 
 
 #### <a id="Report"></a>Report
@@ -176,6 +176,20 @@ The classes and properties used in IPBES ontology are created on the fly based o
 | *ipbes:hasDoi* | The DOI number |
 
 
+#### <a id="KnowledgeGap"></a>KnowledgeGap
+
+| Class |   |
+| --- | --- |
+| *ipbes.KnowledgeGap* | <http://ontology.ipbes.net/report/kg/> |
+
+|Properties|    |
+| --- | --- |
+| *ipbes:Report* | Link to the class Report |
+| *ipbes:SubChapter* | Link to the class SubChapter in which the knowledge gap was described |
+| *ipbes:hasDescription* | The text that further describes each knowledge gap that is related to the subchapters mentioned in the text | 
+| *ipbes:identifier* | The identifier of the sub-chapter or illustration mentioned in description |
+
+
 #### <a id="Person"></a>Person
 | Class |   |
 | --- | --- |
@@ -197,18 +211,6 @@ The classes and properties used in IPBES ontology are created on the fly based o
 | *ipbes:la* | Lead authors in the stated chapter and report |
 | *ipbes:re* | Review editors in the stated chapter and report |
 
-#### <a id="Reference"></a>KnowledgeGap
-
-| Class |   |
-| --- | --- |
-| *ipbes.KnowledgeGap* | <http://ontology.ipbes.net/report/kg/> |
-
-|Properties|    |
-| --- | --- |
-| *ipbes:Report* | Link to the class Report |
-| *ipbes:SubChapter* | Link to the class SubChapter in which the reference has been used |
-| *ipbes:hasDescription* | The text that further describes each knowlege gap that is related to the subchapters mentioned in the text | 
-| *ipbes:identifier* | The identifier of the sub-chapter or illustration mentioned in description |
 
 
 ## 5. References
