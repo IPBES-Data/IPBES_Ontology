@@ -176,7 +176,7 @@ The classes and properties used in IPBES ontology are created on the fly based o
 
 #### <a id="KnowledgeGap"></a>KnowledgeGap
 
-| Class |
+| Class |	|
 | --- | --- |
 | *ipbes.KnowledgeGap* | <http://ontology.ipbes.net/report/kg/> |
 
