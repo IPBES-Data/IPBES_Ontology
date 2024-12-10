@@ -12,7 +12,7 @@ The Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Serv
 <!-- VERSIONS -->
 ## Version History
 04
-- The new Class KnowledgeGaps has been added 
+- The new Class KnowledgeGap has been added 
 
 03
 - The Classes KeyMessage and BackgroundMessage now have a new attribute: Illustration
