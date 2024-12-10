@@ -6,7 +6,7 @@
 
 
 *For any inquires please contact
-[tsu.data\@ipbes.net](mailto:tsu.data@ipbes.net)*
+[aidin.niamir\@senckenberg.de](mailto:aidin.niamir@senckenberg.de)*
 
 Version: 04 
 Last Updated: September 23rd, 2024
