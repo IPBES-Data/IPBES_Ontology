@@ -50,6 +50,14 @@
     ipbes:identifier "The identifier of the chapter or sub-chapter or key message in the report" ;
     skos:prefLabel "The label that is preferred to be used for a chapter, sub-chapter , report or person" .
 
+<http://ontology.ipbes.net/report/ref/> a ipbes:Reference ;
+    ipbes:Chapter <http://ontology.ipbes.net/report/ch/> ;
+    ipbes:Report <http://ontology.ipbes.net/report/> ;
+    ipbes:SubChapter <http://ontology.ipbes.net/report/sch/> ;
+    ipbes:hasDescription "The text that further describes the content" ;
+    ipbes:hasDoi "The DOI number" ;
+    owl:sameAs "Link to other resources such as zotero repository of the reference" .
+
 <http://ontology.ipbes.net/report/person/> a foaf:Person ;
     ipbes:Chapter <http://ontology.ipbes.net/report/ch/> ;
     ipbes:Report <http://ontology.ipbes.net/report/> ;
@@ -64,14 +72,6 @@
     skos:prefLabel "The label that is preferred to be used for a chapter, sub-chapter , report or person" ;
     foaf:firstName "First name of the person" ;
     foaf:lastName "Family name of the person" .
-
-<http://ontology.ipbes.net/report/ref/> a ipbes:Reference ;
-    ipbes:Chapter <http://ontology.ipbes.net/report/ch/> ;
-    ipbes:Report <http://ontology.ipbes.net/report/> ;
-    ipbes:SubChapter <http://ontology.ipbes.net/report/sch/> ;
-    ipbes:hasDescription "The text that further describes the content" ;
-    ipbes:hasDoi "The DOI number" ;
-    owl:sameAs "Link to other resources such as zotero repository of the reference" .
 
 <http://ontology.ipbes.net/report/ch/> a ipbes:Chapter ;
     ipbes:Report <http://ontology.ipbes.net/report/> ;
@@ -93,5 +93,6 @@
     ipbes:hasDoi "The DOI number" ;
     ipbes:year "The publication year" ;
     skos:altLabel "Alternative writing format or language of the preferred label" ;
-    skos:prefLabel "The label that is preferred to be used for a chapter, sub-chapter , report or person" .
+    skos:prefLabel "The label that is preferred to be used for a chapter, sub-chapter , report or person" ;
+    foaf:Person <http://ontology.ipbes.net/report/person/> .
 
