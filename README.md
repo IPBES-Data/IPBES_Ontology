@@ -11,6 +11,9 @@ The Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Serv
 
 <!-- VERSIONS -->
 ## Version History
+05
+- Class Person is now added to Class Report. It refers to the co-chairs of the Report.  
+
 04
 - The new Class KnowledgeGap has been added 
 
