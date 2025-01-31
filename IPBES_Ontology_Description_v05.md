@@ -8,8 +8,8 @@
 *For any inquires please contact
 [aidin.niamir\@senckenberg.de](mailto:aidin.niamir@senckenberg.de)*
 
-Version: 04 
-Last Updated: September 23rd, 2024
+Version: 05 
+Last Updated: January 30th, 2025
 
 DOI: [10.5281/zenodo.10404413](https://zenodo.org/doi/10.5281/zenodo.10404413) 
 
