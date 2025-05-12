@@ -42,7 +42,7 @@ Distributed under the CC-BY-4.0 License. See [LICENSE](https://github.com/IPBES-
 <!-- External links -->
 ## External links
 
-IPBES Ontology: [https://ipbes-data.github.io/IPBES_Ontology/IPBES_Ontology_Description_v05.html](https://ipbes-data.github.io/IPBES_Ontology/IPBES_Ontology_Description_v05.html)
+IPBES Ontology: [https://ipbes-data.github.io/IPBES_Ontology/IPBES_Ontology_Description_Latest.html](https://ipbes-data.github.io/IPBES_Ontology/IPBES_Ontology_Description_Latest.html)
 
 IPBES Ontology on the ICT Portal: [https://ict.ipbes.net/ipbes-ict-guide/linked-open-data/ipbes-ontology](https://ict.ipbes.net/ipbes-ict-guide/linked-open-data/ipbes-ontology)
 
