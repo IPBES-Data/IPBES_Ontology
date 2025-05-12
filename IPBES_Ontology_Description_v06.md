@@ -8,8 +8,8 @@
 *For any inquires please contact
 [aidin.niamir\@senckenberg.de](mailto:aidin.niamir@senckenberg.de)*
 
-Version: 05 
-Last Updated: January 30th, 2025
+Version: 06 
+Last Updated: May 12, 2025
 
 DOI: [10.5281/zenodo.10404413](https://zenodo.org/doi/10.5281/zenodo.10404413) 
 
@@ -35,7 +35,7 @@ This is the list of the namesspaces used in this ontology.
 | ipbes | <https://ontology.ipbes.net/report/> |
 | foaf | <http://xmlns.com/foaf/0.1/> |
 | skos | <http://www.w3.org/2004/02/skos/core#> |
-
+| owl | <http://www.w3.org/2002/07/owl#> |
 
 ## 3. The IPBES Ontology Description
 The classes and properties used in IPBES ontology are created on the fly based on the information that we encounter and the concepts that we aimed to represent. However, the usage of the properties is consistent and the coined URI’s are stable and unique. Currently our ontology consists of 6 classes, each representing a specific part of the data along with their corresponding attributes.
@@ -72,7 +72,7 @@ The classes and properties used in IPBES ontology are created on the fly based o
 | *skos:prefLabel* | The label that is preferred to be used for a chapter, sub-chapter, report or person | 
 | *ipbes:Report* | Link to the class Report of the chapter |
 | *ipbes:hasDoi* | The DOI number |
-| *ipbes:identifier* | The identifier of the chapter or sub-chapter or key message in the report | 
+| *dcterms:identifier* | The identifier of the chapter or sub-chapter or key message in the report | 
 | *foaf.Person* | The list of persons who have a role in this chapter |
 
 
@@ -83,7 +83,7 @@ The classes and properties used in IPBES ontology are created on the fly based o
 
 |Properties|    |
 | --- | --- |
-| *ipbes:identifier* | The identifier of the chapter or sub-chapter or key message in the report  | 
+| *dcterms:identifier* | The identifier of the chapter or sub-chapter or key message in the report  | 
 | *ipbes:Chapter* | Link to the class Chapter of the sub-chapter |
 | *ipbes:Report* | Link to the class Report of the sub-chapter |
 | *ipbes:KeyMessage* | Link to the class KeyMessage for which the sub-chapter has been referred to |
@@ -100,7 +100,7 @@ The classes and properties used in IPBES ontology are created on the fly based o
 |Properties|    |
 | --- | --- |
 | *ipbes:BackgroundMessage* | Link to the class BackgroundMessage which the key message has been referred to  | 
-| *ipbes:identifier* | The identifier of the chapter or sub-chapter or key message in the report  |
+| *dcterms:identifier* | The identifier of the chapter or sub-chapter or key message in the report  |
 | *ipbes:Report* | Link to the class Report of the key message |
 | *skos:prefLabel* | The label that is preferred to be used for a chapter, sub-chapter, report or person |
 | *ipbes:hasDescription* | The text that further describes the content  |
@@ -118,7 +118,7 @@ The classes and properties used in IPBES ontology are created on the fly based o
 |Properties|    |
 | --- | --- |
 | *ipbes:SubMessage* | Link to the sub-messages used in each background message | 
-| *ipbes:identifier* | The identifier of the chapter or sub-chapter or key message in the report  |
+| *dcterms:identifier* | The identifier of the chapter or sub-chapter or key message in the report  |
 | *ipbes:Report* | Link to the class Report of the key message |
 | *skos:prefLabel* | The label that is preferred to be used for a chapter, sub-chapter, report or person |
 | *ipbes:hasDescription* | The text that further describes the content  |
@@ -135,7 +135,7 @@ The classes and properties used in IPBES ontology are created on the fly based o
 
 |Properties|    |
 | --- | --- |
-| *ipbes:identifier* | The identifier of the chapter or sub-chapter or key message in the report |
+| *dcterms:identifier* | The identifier of the chapter or sub-chapter or key message in the report |
 | *ipbes:hasDescription* | The text that further describes the content |
 | *ipbes:SubChapter* | Link to class SubChapter. Use for subchapters mentioned in the sub-message |
 | *ipbes:Illustration* | Link to class Illustration. Used for mentioned tables, figures or boxes in the sub-message |
@@ -152,7 +152,7 @@ The classes and properties used in IPBES ontology are created on the fly based o
 
 |Properties|    |
 | --- | --- |
-| *ipbes:identifier* | The identifier of the chapter or sub-chapter or key message in the report |
+| *dcterms:identifier* | The identifier of the chapter or sub-chapter or key message in the report |
 | *skos:prefLabel* | The label that is preferred to be used for a chapter, sub-chapter, report or person |
 | *ipbes:hasDescription* | The text that further describes the content |
 | *ipbes:hasDoi* | The DOI number |
@@ -186,7 +186,7 @@ The classes and properties used in IPBES ontology are created on the fly based o
 | *ipbes:Report* | Link to the class Report |
 | *ipbes:SubChapter* | Link to the class SubChapter in which the knowledge gap was described |
 | *ipbes:hasDescription* | The text that further describes each knowledge gap that is related to the subchapters mentioned in the text | 
-| *ipbes:identifier* | The identifier of the sub-chapter or illustration mentioned in description |
+| *dcterms:identifier* | The identifier of the sub-chapter or illustration mentioned in description |
 
 
 #### <a id="Person"></a>Person

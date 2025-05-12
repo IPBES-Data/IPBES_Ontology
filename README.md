@@ -11,6 +11,9 @@ The Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Serv
 
 <!-- VERSIONS -->
 ## Version History
+06
+- The attribute identifier was revised. The descrition of subchapters were cleaned and the zenodo import text was removed.  
+
 05
 - Class Person is now added to Class Report. It refers to the co-chairs of the Report.  
 

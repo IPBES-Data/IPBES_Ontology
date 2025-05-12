@@ -1,181 +1,10 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
-<head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>IPBES_Ontology_Description_v05</title>
-  <style>
-    html {
-      color: #1a1a1a;
-      background-color: #fdfdfd;
-    }
-    body {
-      margin: 0 auto;
-      max-width: 36em;
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      hyphens: auto;
-      overflow-wrap: break-word;
-      text-rendering: optimizeLegibility;
-      font-kerning: normal;
-    }
-    @media (max-width: 600px) {
-      body {
-        font-size: 0.9em;
-        padding: 12px;
-      }
-      h1 {
-        font-size: 1.8em;
-      }
-    }
-    @media print {
-      html {
-        background-color: white;
-      }
-      body {
-        background-color: transparent;
-        color: black;
-        font-size: 12pt;
-      }
-      p, h2, h3 {
-        orphans: 3;
-        widows: 3;
-      }
-      h2, h3, h4 {
-        page-break-after: avoid;
-      }
-    }
-    p {
-      margin: 1em 0;
-    }
-    a {
-      color: #1a1a1a;
-    }
-    a:visited {
-      color: #1a1a1a;
-    }
-    img {
-      max-width: 100%;
-    }
-    svg {
-      height: auto;
-      max-width: 100%;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 1.4em;
-    }
-    h5, h6 {
-      font-size: 1em;
-      font-style: italic;
-    }
-    h6 {
-      font-weight: normal;
-    }
-    ol, ul {
-      padding-left: 1.7em;
-      margin-top: 1em;
-    }
-    li > ol, li > ul {
-      margin-top: 0;
-    }
-    blockquote {
-      margin: 1em 0 1em 1.7em;
-      padding-left: 1em;
-      border-left: 2px solid #e6e6e6;
-      color: #606060;
-    }
-    code {
-      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
-      font-size: 85%;
-      margin: 0;
-      hyphens: manual;
-    }
-    pre {
-      margin: 1em 0;
-      overflow: auto;
-    }
-    pre code {
-      padding: 0;
-      overflow: visible;
-      overflow-wrap: normal;
-    }
-    .sourceCode {
-     background-color: transparent;
-     overflow: visible;
-    }
-    hr {
-      background-color: #1a1a1a;
-      border: none;
-      height: 1px;
-      margin: 1em 0;
-    }
-    table {
-      margin: 1em 0;
-      border-collapse: collapse;
-      width: 100%;
-      overflow-x: auto;
-      display: block;
-      font-variant-numeric: lining-nums tabular-nums;
-    }
-    table caption {
-      margin-bottom: 0.75em;
-    }
-    tbody {
-      margin-top: 0.5em;
-      border-top: 1px solid #1a1a1a;
-      border-bottom: 1px solid #1a1a1a;
-    }
-    th {
-      border-top: 1px solid #1a1a1a;
-      padding: 0.25em 0.5em 0.25em 0.5em;
-    }
-    td {
-      padding: 0.125em 0.5em 0.25em 0.5em;
-    }
-    header {
-      margin-bottom: 4em;
-      text-align: center;
-    }
-    #TOC li {
-      list-style: none;
-    }
-    #TOC ul {
-      padding-left: 1.3em;
-    }
-    #TOC > ul {
-      padding-left: 0;
-    }
-    #TOC a:not(:hover) {
-      text-decoration: none;
-    }
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    /* The extra [class] is a hack that increases specificity enough to
-       override a similar rule in reveal.js */
-    ul.task-list[class]{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      font-size: inherit;
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-  </style>
-</head>
-<body>
 <h1 id="the-ipbes-ontology">The IPBES Ontology</h1>
 <p><strong>Prepared by Maral Dadvar and Aidin Niamir</strong></p>
 <p><strong>Contributors: Dave Thau, Benedict Omare and Renske
 Gudde</strong></p>
 <p><em>For any inquires please contact <a
 href="mailto:aidin.niamir@senckenberg.de">aidin.niamir@senckenberg.de</a></em></p>
-<p>Version: 05 Last Updated: January 30th, 2025</p>
+<p>Version: 06 Last Updated: May 12, 2025</p>
 <p>DOI: <a
 href="https://zenodo.org/doi/10.5281/zenodo.10404413">10.5281/zenodo.10404413</a></p>
 <h2 id="abstract">Abstract</h2>
@@ -206,26 +35,31 @@ further exploration.</p>
 <p>This is the list of the namesspaces used in this ontology.</p>
 <table>
 <thead>
-<tr>
+<tr class="header">
 <th>namespace prefix</th>
 <th>namespace URI</th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td>ipbes</td>
 <td><a href="https://ontology.ipbes.net/report/"
 class="uri">https://ontology.ipbes.net/report/</a></td>
 </tr>
-<tr>
+<tr class="even">
 <td>foaf</td>
 <td><a href="http://xmlns.com/foaf/0.1/"
 class="uri">http://xmlns.com/foaf/0.1/</a></td>
 </tr>
-<tr>
+<tr class="odd">
 <td>skos</td>
 <td><a href="http://www.w3.org/2004/02/skos/core#"
 class="uri">http://www.w3.org/2004/02/skos/core#</a></td>
+</tr>
+<tr class="even">
+<td>owl</td>
+<td><a href="http://www.w3.org/2002/07/owl#"
+class="uri">http://www.w3.org/2002/07/owl#</a></td>
 </tr>
 </tbody>
 </table>
@@ -251,7 +85,7 @@ along with their corresponding attributes.</p>
 <col style="width: 11%" />
 </colgroup>
 <thead>
-<tr>
+<tr class="header">
 <th>Classes</th>
 <th></th>
 <th></th>
@@ -264,7 +98,7 @@ along with their corresponding attributes.</p>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td><a href="#Report">Report</a></td>
 <td><a href="#Chapter">Chapter</a></td>
 <td><a href="#Subchapter">SubChapter</a></td>
@@ -280,13 +114,13 @@ along with their corresponding attributes.</p>
 <h4 id="report"><a id="Report"></a>Report</h4>
 <table>
 <thead>
-<tr>
+<tr class="header">
 <th>Class</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td><em>ipbes.Report</em></td>
 <td><a href="http://ontology.ipbes.net/report"
 class="uri">http://ontology.ipbes.net/report</a></td>
@@ -299,30 +133,30 @@ class="uri">http://ontology.ipbes.net/report</a></td>
 <col style="width: 50%" />
 </colgroup>
 <thead>
-<tr>
+<tr class="header">
 <th>Properties</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td><em>skos:prefLabel</em></td>
 <td>The label that is preferred to be used for a chapter, sub-chapter,
 report or person</td>
 </tr>
-<tr>
+<tr class="even">
 <td><em>Skos:altLabel</em></td>
 <td>Alternative writing format or language of the preferred label</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>ipbes:year</em></td>
 <td>The publication year</td>
 </tr>
-<tr>
+<tr class="even">
 <td><em>ipbes:hasDoi</em></td>
 <td>The DOI number</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>foaf.Person</em></td>
 <td>The list of co-chairs of this report</td>
 </tr>
@@ -331,13 +165,13 @@ report or person</td>
 <h4 id="chapter"><a id="Chapter"></a>Chapter</h4>
 <table>
 <thead>
-<tr>
+<tr class="header">
 <th>Class</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td><em>ipbes.Chapter</em></td>
 <td><a href="http://ontology.ipbes.net/data/ch/"
 class="uri">http://ontology.ipbes.net/data/ch/</a></td>
@@ -350,31 +184,31 @@ class="uri">http://ontology.ipbes.net/data/ch/</a></td>
 <col style="width: 50%" />
 </colgroup>
 <thead>
-<tr>
+<tr class="header">
 <th>Properties</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td><em>skos:prefLabel</em></td>
 <td>The label that is preferred to be used for a chapter, sub-chapter,
 report or person</td>
 </tr>
-<tr>
+<tr class="even">
 <td><em>ipbes:Report</em></td>
 <td>Link to the class Report of the chapter</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>ipbes:hasDoi</em></td>
 <td>The DOI number</td>
 </tr>
-<tr>
-<td><em>ipbes:identifier</em></td>
+<tr class="even">
+<td><em>dcterms:identifier</em></td>
 <td>The identifier of the chapter or sub-chapter or key message in the
 report</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>foaf.Person</em></td>
 <td>The list of persons who have a role in this chapter</td>
 </tr>
@@ -383,13 +217,13 @@ report</td>
 <h4 id="sub-chapter"><a id="Subchapter"></a>Sub-chapter</h4>
 <table>
 <thead>
-<tr>
+<tr class="header">
 <th>Class</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td><em>ipbes.SubChapter</em></td>
 <td><a href="http://ontology.ipbes.net/report/sch/"
 class="uri">http://ontology.ipbes.net/report/sch/</a></td>
@@ -402,41 +236,41 @@ class="uri">http://ontology.ipbes.net/report/sch/</a></td>
 <col style="width: 50%" />
 </colgroup>
 <thead>
-<tr>
+<tr class="header">
 <th>Properties</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td><em>ipbes:identifier</em></td>
+<tr class="odd">
+<td><em>dcterms:identifier</em></td>
 <td>The identifier of the chapter or sub-chapter or key message in the
 report</td>
 </tr>
-<tr>
+<tr class="even">
 <td><em>ipbes:Chapter</em></td>
 <td>Link to the class Chapter of the sub-chapter</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>ipbes:Report</em></td>
 <td>Link to the class Report of the sub-chapter</td>
 </tr>
-<tr>
+<tr class="even">
 <td><em>ipbes:KeyMessage</em></td>
 <td>Link to the class KeyMessage for which the sub-chapter has been
 referred to</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>ipbes:Reference</em></td>
 <td>Link to the class reference for the citations used in each
 subchapter</td>
 </tr>
-<tr>
+<tr class="even">
 <td><em>skos:prefLabel</em></td>
 <td>The label that is preferred to be used for a chapter, sub-chapter ,
 report or person</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>ipbes:hasDescription</em></td>
 <td>The text that further describes the content</td>
 </tr>
@@ -445,13 +279,13 @@ report or person</td>
 <h4 id="key-message"><a id="KeyMessage"></a>Key message</h4>
 <table>
 <thead>
-<tr>
+<tr class="header">
 <th>Class</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td><em>ipbes.KeyMessage</em></td>
 <td><a href="http://ontology.ipbes.net/report/key/"
 class="uri">http://ontology.ipbes.net/report/key/</a></td>
@@ -464,48 +298,48 @@ class="uri">http://ontology.ipbes.net/report/key/</a></td>
 <col style="width: 50%" />
 </colgroup>
 <thead>
-<tr>
+<tr class="header">
 <th>Properties</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td><em>ipbes:BackgroundMessage</em></td>
 <td>Link to the class BackgroundMessage which the key message has been
 referred to</td>
 </tr>
-<tr>
-<td><em>ipbes:identifier</em></td>
+<tr class="even">
+<td><em>dcterms:identifier</em></td>
 <td>The identifier of the chapter or sub-chapter or key message in the
 report</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>ipbes:Report</em></td>
 <td>Link to the class Report of the key message</td>
 </tr>
-<tr>
+<tr class="even">
 <td><em>skos:prefLabel</em></td>
 <td>The label that is preferred to be used for a chapter, sub-chapter,
 report or person</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>ipbes:hasDescription</em></td>
 <td>The text that further describes the content</td>
 </tr>
-<tr>
+<tr class="even">
 <td><em>ipbes:hasEstablishedIncomplete</em></td>
 <td>Level of confidence</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>ipbes:hasWellestablished</em></td>
 <td>Level of confidence</td>
 </tr>
-<tr>
+<tr class="even">
 <td><em>ipbes:hasUnresolved</em></td>
 <td>Level of confidence</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>ipbes:hasInconclusive</em></td>
 <td>Level of confidence</td>
 </tr>
@@ -515,13 +349,13 @@ report or person</td>
 message</h4>
 <table>
 <thead>
-<tr>
+<tr class="header">
 <th>Class</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td><em>ipbes.BackgroundMessage</em></td>
 <td><a href="http://ontology.ipbes.net/report/bgm/"
 class="uri">http://ontology.ipbes.net/report/bgm/</a></td>
@@ -534,47 +368,47 @@ class="uri">http://ontology.ipbes.net/report/bgm/</a></td>
 <col style="width: 50%" />
 </colgroup>
 <thead>
-<tr>
+<tr class="header">
 <th>Properties</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td><em>ipbes:SubMessage</em></td>
 <td>Link to the sub-messages used in each background message</td>
 </tr>
-<tr>
-<td><em>ipbes:identifier</em></td>
+<tr class="even">
+<td><em>dcterms:identifier</em></td>
 <td>The identifier of the chapter or sub-chapter or key message in the
 report</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>ipbes:Report</em></td>
 <td>Link to the class Report of the key message</td>
 </tr>
-<tr>
+<tr class="even">
 <td><em>skos:prefLabel</em></td>
 <td>The label that is preferred to be used for a chapter, sub-chapter,
 report or person</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>ipbes:hasDescription</em></td>
 <td>The text that further describes the content</td>
 </tr>
-<tr>
+<tr class="even">
 <td><em>ipbes:hasEstablishedIncomplete</em></td>
 <td>Level of confidence</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>ipbes:hasWellestablished</em></td>
 <td>Level of confidence</td>
 </tr>
-<tr>
+<tr class="even">
 <td><em>ipbes:hasUnresolved</em></td>
 <td>Level of confidence</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>ipbes:hasInconclusive</em></td>
 <td>Level of confidence</td>
 </tr>
@@ -583,13 +417,13 @@ report or person</td>
 <h4 id="sub-message"><a id="SubMessage"></a>Sub-message</h4>
 <table>
 <thead>
-<tr>
+<tr class="header">
 <th>Class</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td><em>ipbes.SubMessage</em></td>
 <td><a href="http://ontology.ipbes.net/report/subm/"
 class="uri">http://ontology.ipbes.net/report/subm/</a></td>
@@ -602,44 +436,44 @@ class="uri">http://ontology.ipbes.net/report/subm/</a></td>
 <col style="width: 50%" />
 </colgroup>
 <thead>
-<tr>
+<tr class="header">
 <th>Properties</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td><em>ipbes:identifier</em></td>
+<tr class="odd">
+<td><em>dcterms:identifier</em></td>
 <td>The identifier of the chapter or sub-chapter or key message in the
 report</td>
 </tr>
-<tr>
+<tr class="even">
 <td><em>ipbes:hasDescription</em></td>
 <td>The text that further describes the content</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>ipbes:SubChapter</em></td>
 <td>Link to class SubChapter. Use for subchapters mentioned in the
 sub-message</td>
 </tr>
-<tr>
+<tr class="even">
 <td><em>ipbes:Illustration</em></td>
 <td>Link to class Illustration. Used for mentioned tables, figures or
 boxes in the sub-message</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>ipbes:hasEstablishedIncomplete</em></td>
 <td>Level of confidence</td>
 </tr>
-<tr>
+<tr class="even">
 <td><em>ipbes:hasWellestablished</em></td>
 <td>Level of confidence</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>ipbes:hasUnresolved</em></td>
 <td>Level of confidence</td>
 </tr>
-<tr>
+<tr class="even">
 <td><em>ipbes:hasInconclusive</em></td>
 <td>Level of confidence</td>
 </tr>
@@ -648,13 +482,13 @@ boxes in the sub-message</td>
 <h4 id="illustration"><a id="Illustration"></a>Illustration</h4>
 <table>
 <thead>
-<tr>
+<tr class="header">
 <th>Class</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td><em>ipbes.Illustration</em></td>
 <td><a href="http://ontology.ipbes.net/report/il/"
 class="uri">http://ontology.ipbes.net/report/il/</a></td>
@@ -667,31 +501,31 @@ class="uri">http://ontology.ipbes.net/report/il/</a></td>
 <col style="width: 50%" />
 </colgroup>
 <thead>
-<tr>
+<tr class="header">
 <th>Properties</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td><em>ipbes:identifier</em></td>
+<tr class="odd">
+<td><em>dcterms:identifier</em></td>
 <td>The identifier of the chapter or sub-chapter or key message in the
 report</td>
 </tr>
-<tr>
+<tr class="even">
 <td><em>skos:prefLabel</em></td>
 <td>The label that is preferred to be used for a chapter, sub-chapter,
 report or person</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>ipbes:hasDescription</em></td>
 <td>The text that further describes the content</td>
 </tr>
-<tr>
+<tr class="even">
 <td><em>ipbes:hasDoi</em></td>
 <td>The DOI number</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>owl:sameAs</em></td>
 <td>Link to other resources such as the zotero repository of the
 reference</td>
@@ -701,13 +535,13 @@ reference</td>
 <h4 id="reference"><a id="Reference"></a>Reference</h4>
 <table>
 <thead>
-<tr>
+<tr class="header">
 <th>Class</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td><em>ipbes.Reference</em></td>
 <td><a href="http://ontology.ipbes.net/report/ref/"
 class="uri">http://ontology.ipbes.net/report/ref/</a></td>
@@ -720,35 +554,35 @@ class="uri">http://ontology.ipbes.net/report/ref/</a></td>
 <col style="width: 50%" />
 </colgroup>
 <thead>
-<tr>
+<tr class="header">
 <th>Properties</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td><em>ipbes:Chapter</em></td>
 <td>Link to the class Chapter in which the reference has been used</td>
 </tr>
-<tr>
+<tr class="even">
 <td><em>ipbes:Report</em></td>
 <td>Link to the class Report</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>ipbes:SubChapter</em></td>
 <td>Link to the class SubChapter in which the reference has been
 used</td>
 </tr>
-<tr>
+<tr class="even">
 <td><em>owl:sameAs</em></td>
 <td>Link to other resources such as the zotero repository of the
 reference</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>ipbes:hasDescription</em></td>
 <td>The text that further describes the content</td>
 </tr>
-<tr>
+<tr class="even">
 <td><em>ipbes:hasDoi</em></td>
 <td>The DOI number</td>
 </tr>
@@ -757,13 +591,13 @@ reference</td>
 <h4 id="knowledgegap"><a id="KnowledgeGap"></a>KnowledgeGap</h4>
 <table>
 <thead>
-<tr>
+<tr class="header">
 <th>Class</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td><em>ipbes.KnowledgeGap</em></td>
 <td><a href="http://ontology.ipbes.net/report/kg/"
 class="uri">http://ontology.ipbes.net/report/kg/</a></td>
@@ -776,28 +610,28 @@ class="uri">http://ontology.ipbes.net/report/kg/</a></td>
 <col style="width: 50%" />
 </colgroup>
 <thead>
-<tr>
+<tr class="header">
 <th>Properties</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td><em>ipbes:Report</em></td>
 <td>Link to the class Report</td>
 </tr>
-<tr>
+<tr class="even">
 <td><em>ipbes:SubChapter</em></td>
 <td>Link to the class SubChapter in which the knowledge gap was
 described</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>ipbes:hasDescription</em></td>
 <td>The text that further describes each knowledge gap that is related
 to the subchapters mentioned in the text</td>
 </tr>
-<tr>
-<td><em>ipbes:identifier</em></td>
+<tr class="even">
+<td><em>dcterms:identifier</em></td>
 <td>The identifier of the sub-chapter or illustration mentioned in
 description</td>
 </tr>
@@ -806,13 +640,13 @@ description</td>
 <h4 id="person"><a id="Person"></a>Person</h4>
 <table>
 <thead>
-<tr>
+<tr class="header">
 <th>Class</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td><em>foaf.Person</em></td>
 <td>http://ontology.ipbes.net/report/person/</td>
 </tr>
@@ -824,62 +658,62 @@ description</td>
 <col style="width: 50%" />
 </colgroup>
 <thead>
-<tr>
+<tr class="header">
 <th>Properties</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td><em>foaf:firstName</em></td>
 <td>First name of the person</td>
 </tr>
-<tr>
+<tr class="even">
 <td><em>foaf:lastName</em></td>
 <td>Family name of the person</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>ipbes:Chapter</em></td>
 <td>Link to the class Chapter in which the person has a role</td>
 </tr>
-<tr>
+<tr class="even">
 <td><em>ipbes:Report</em></td>
 <td>Link to the class Report</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>skos:prefLabel</em></td>
 <td>The label that is preferred to be used for a chapter, sub-chapter,
 report or person</td>
 </tr>
-<tr>
+<tr class="even">
 <td><em>owl:sameAs</em></td>
 <td>Link to other resources about the person, such as ORCID</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>ipbes:country</em></td>
 <td>Country of residence of the person</td>
 </tr>
-<tr>
+<tr class="even">
 <td><em>ipbes:ca</em></td>
 <td>Contributing authors in the stated chapter and report</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>ipbes:cl</em></td>
 <td>Coordinating lead authors in the stated chapter and report</td>
 </tr>
-<tr>
+<tr class="even">
 <td><em>ipbes:fl</em></td>
 <td>Fellows in the stated chapter and report</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>ipbes:cs</em></td>
 <td>Co-chairs in the stated chapter and report</td>
 </tr>
-<tr>
+<tr class="even">
 <td><em>ipbes:la</em></td>
 <td>Lead authors in the stated chapter and report</td>
 </tr>
-<tr>
+<tr class="odd">
 <td><em>ipbes:re</em></td>
 <td>Review editors in the stated chapter and report</td>
 </tr>
@@ -888,5 +722,3 @@ report or person</td>
 <h2 id="references">5. References</h2>
 <p>https://www.w3.org/2009/08/skos-reference/skos.html</p>
 <p>http://xmlns.com/foaf/0.1/</p>
-</body>
-</html>
